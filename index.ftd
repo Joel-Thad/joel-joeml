@@ -1,40 +1,54 @@
--- ds.page: Welcome to doc-site
+-- import: fastn-community.github.io/tiro-typography
+-- component card:
+caption title: Default title
+body description: Default Body
+ftd.type-data types: $tiro-typography.types
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #000000
+align-content: center
+
+-- ftd.row:
+width.fixed.px: 700
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 3
+border-radius.px: 10
+spacing.fixed.px: 50
+align-content: center
+
+-- ftd.image:
+src: https://www.ebrdgreencities.com/policy-tool/wp-content/uploads/2021/01/iStock-1148711252-2-1600x1600.jpg
+width.fixed.px: 340
+height.fixed.px: 340
+border-radius.px: 10
+
+-- ftd.column:
+
+-- ftd.text: Barcelona
+role: $inherited.types.heading-medium
+padding.px: 2
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+padding.px: 2
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+Barcelona, the cosmopolitan capital of Spain’s Catalonia region, 
+is known for its art and architecture.
+It is also the home of one of the biggest football clubs in the world: FC Barcelona.
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- end: ftd.column
 
--- ds.h3: 🚀 Fast Track 
+-- end: ftd.row
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- end: ftd.column
 
--- ds.h3: 🌟 Whats next?
+-- end: card
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- card:
 
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
